@@ -1,0 +1,239 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+li:hover{
+    transform: scale(1.1);
+    background-color: gray;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px  rgb(133, 133, 193);
+    transition: 0.8s;
+}
+.header{
+    background-color: black;
+    padding-left: 30px;
+    width: 100%;
+    color:white;
+    display: flex;
+    position: fixed;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.sec1{
+    color:rgb(255,255,255);
+    background-color:black;
+    max-width: 100%;
+    height:700px;
+    min-height: 500px;
+    background-image: url(images/result.jpeg) ;
+    background-repeat: no-repeat ;
+    background-position: right bottom;
+    background-attachment: fixed;
+    
+}
+#p11{
+    padding:250px 0px 0px 250px ;
+    font-size:xxx-large;
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+    padding-left: 150px;
+    justify-content: center;
+    color: white;
+}
+li{
+    
+    margin: auto;
+    display: inline;
+    float: left;
+}
+a {
+    color: white;
+    display: block;
+    padding: 20px; 
+    text-decoration: none;
+}
+.logo{
+    padding-top: 5px;
+    padding-left: 100px;
+    float: left;
+    font-weight: 900;
+    font-size: large;
+}
+
+.cv{
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 400px;
+    width: 150px;
+}
+.cv:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+#but2{
+    padding: 20px;
+    margin-left: 250px;
+}
+
+
+
+h5{color: black;
+text-align: center;
+}
+h1,h3{
+    text-align: center;
+}
+
+.contflex{
+    display: flex;
+    flex-direction: row;
+    margin:0px 150px 0px 150px ;
+}
+
+.item{
+    text-align: center;
+    background-color:black;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.item:hover{
+    transform:scale(1.2);
+    box-shadow: 0 0 15px  rgb(133, 133, 193);
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+
+.material-symbols-outlined{
+    margin-top: 20px;
+    color: orange;
+}
+.Project-card{
+    border-radius: 4px;
+    min-height: 8em;
+    width: 15em;
+    margin: 2px;
+    transition: 0.7s ease;
+    background-color:rgb(250, 248, 248);
+    overflow: hidden;
+}
+.Project-card:hover{
+    transform:scale(0.98);
+    box-shadow: 0 0 15px  rgb(133, 133, 193);
+}
+
+.Project-image img{
+    width:100% ;
+}
+.Project-card:hover .Project-image{
+    opacity: 0.92;
+}
+
+.Project-info{
+    padding: 1em;
+}
+.Project-description{
+    font-size: 0.9em;
+    color: black;
+}
+.Project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 500;
+}
+
+.bttn{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:150px;
+    margin-top: 20px;
+}
+.btn
+{
+all:unset;
+text-align: center;
+width: 100px;
+height: 35px;
+border-radius: 1rem;
+font-size: 20px;
+transition: 0.8s ease;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    font-size: larger;
+    transform:scale(1.05);
+    
+}
+.div55
+{
+    color: whitesmoke;
+    font-size: 35px;
+}
+.PortfolioClass .Projects
+{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+
+.item p{
+    text-align: center;
+}
+
+.user{
+    color: white;
+}
+
+.Contact{
+    padding: 20px 0px;
+    background-color: black;
+    justify-content: center;
+    color: white;
+
+}   
+
+#but3{
+    justify-content: center;
+    margin-left:45% ;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    color: black;
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#ul2{
+    color: black;
+    padding: 0px;
+}
